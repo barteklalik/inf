@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('motor.png'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+header {
+    background-color: rgba(60, 120, 160, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 150%;
+}
+
+#left-block {
+    background-color: rgba(0, 100, 0, 0.6);
+    margin: 2%;
+    width: 75%;
+    height: 600px;
+    font-size: 120%;
+    overflow: auto;
+    box-shadow: 10px 10px 7px DimGray;
+    float: left;
+}
+
+#right-block-1,
+#right-block-2 {
+    background-color: rgba(0, 100, 0, 0.6);
+    margin: 1%;
+    width: 15%;
+    height: 300px;
+    box-shadow: 10px 10px 7px DimGray;
+    float: right;
+}
+
+footer {
+    background-color: rgba(60, 120, 160, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+}
